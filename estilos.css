@@ -1,0 +1,77 @@
+body {
+	background: #04A1BF;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+#send {
+	border: none;
+	padding: 10px 10px;
+	border-radius: 3px;
+	color: white;
+	background: orange;
+	transition: all 0.75s ease;
+	-webkit-transition:all 0.75s ease;
+	-moz-transition:all 0.75s ease;
+	-o-transition:all 0.75s ease;
+	font-weight: normal;
+}
+#send:hover{
+	background: blue;
+	color: #d0d0d0;
+}
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+li{
+	list-style: none;
+	padding: 10px 20px;
+	color: white;
+	text-transform: capitalize;
+	font-weight: 800;
+	border: 2px solid #d0d0d0;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-o-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+}
+li:hover {
+	background: #d0d0d0;
+}
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #d0d0d0;
+	font-weight: 800;
+}
+input {
+	border-radius: 5px;
+	min-width: 85%;
+	padding: 10px;
+	border: none;
+}
+#content{
+	width: 50%;
+	margin: 0 auto;
+}
+#listData{
+	width: 50%;
+	margin: 0 auto;
+}
+.done {
+	background: #52DF70;
+	color: #00891E;
+}
+.delete {
+	display: none;
+}
